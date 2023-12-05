@@ -1,0 +1,601 @@
+body{
+    margin: 0;
+}
+
+#header-logo{
+    display: flex;
+    width: 1440px;
+}
+
+#logo1imgfile{
+    padding-left: 236px;
+    height: 63px;
+}
+
+#logo2imgfile{
+    padding-left: 599.5px;
+    height: 55px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+#header-line{
+    margin: 0;
+}
+
+#main-image{
+    margin: 0;
+    padding-top: 0;
+    padding-left: 30.5px;
+    padding-bottom: 25px;
+}
+
+#main-content{
+    padding-left: 232px;
+    display: flex;
+}
+
+#main-info{
+    width: 314px;
+    height: 189px;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-left: 0.5px solid gray;
+    border-right: 0.5px solid gray;
+    border-bottom: 0.5px solid gray;
+    border-radius: 6px;
+}
+
+#main-info-tab{
+    display: flex;
+}
+
+#main-info-food{
+    height: 160px;
+}
+
+#tab2-1{
+    width: 105px;
+    height: 26px;
+}
+
+#tab2-2{
+    width: 105px;
+    height: 26px;
+}
+
+#tab2-3{
+    width: 104px;
+    height: 26px;
+}
+
+#main-info-food-tab{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 2px;
+}
+
+#food-line{
+    margin: 0;
+}
+
+#main-info-food-studentkitchen-back{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#tabback-info{
+    position: relative;
+    width: 305px;
+    height: 20px;
+    padding-left: 4.5px;
+}
+
+#resto1{
+    position: absolute;
+    top: 5px;
+    left: 12%;
+    color: #3F78C1;
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+}
+
+#resto2{
+    position: absolute;
+    top: 5px;
+    left: 45%;
+    color: #3F78C1;
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+}
+
+#resto3{
+    position: absolute;
+    top: 5px;
+    left: 74%;
+    color: #3F78C1;
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+}
+
+#tabback2-info{
+    position: relative;
+    width: 305px;
+    height: 15px;
+    padding-left: 4.5px;
+}
+
+#resto4{
+    position: absolute;
+    top: 5px;
+    left: 19%;
+    color: #3F78C1;
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+}
+
+#resto5{
+    position: absolute;
+    top: 5px;
+    left: 69%;
+    color: #3F78C1;
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+}
+
+#tabback3{
+    width: 305px;
+    height: 3px;
+    padding-left: 4.5px;
+}
+
+#tab2-1-1{
+    width: 79px;
+    height: 30px;
+}
+
+#tab2-1-2{
+    width: 76px;
+    height: 30px;
+}
+
+#tab2-1-3{
+    width: 77px;
+    height: 30px;
+}
+
+#tab2-1-4{
+    width: 78px;
+    height: 30px;
+}
+
+#main-info-food-studentkitchen-deundeunhandong-content{
+    height: 92px;
+}
+
+#deundeunhandong-content-foodtype{
+    display: flex;
+}
+
+#breakfirst{
+    font-size: 11px;
+    padding-left: 47px;
+    color: #3F78C1;
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+
+#launch{
+    font-size: 11px;
+    padding-left: 82px;
+    color: #3F78C1;
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+
+#dinner{
+    font-size: 11px;
+    padding-left: 81px;
+    color: #3F78C1;
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+
+#food-line2{
+    margin: 0;
+    margin-left: 4.5px;
+    margin-right: 4.5px;
+}
+
+#deundeunhandong-content-foodlist{
+    
+    display: flex;
+    padding-left: 4.5px;
+    width: 305px;
+    height: 69.5px;
+    overflow-x: hidden;
+}
+
+#deundeunhandong-breakfirst{
+    text-overflow: ellipsis;
+    font-size: 11px;
+    width: 68px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#deundeunhandong-launch{
+    text-overflow: ellipsis;
+    font-size: 11px;
+    width: 68px;
+    padding-left: 32px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#deundeunhandong-dinner{
+    text-overflow: ellipsis;
+    font-size: 11px;
+    padding-left: 32px;
+    width: 68px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+
+#main-notice{
+    width: 325px;
+    height: 172px;
+    margin-left: 23px;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-left: 0.5px solid gray;
+    border-right: 0.5px solid gray;
+    border-bottom: 0.5px solid gray;
+    border-radius: 6px;
+}
+
+#main-notice-tab{
+    border-bottom: 0;
+    display: flex;
+}
+
+#tab3-3{
+    width: 191px;
+}
+
+#notice1{
+    font-size: 12px;
+    width: 320px;
+    height: 22px;
+    color: #666666;
+    display: flex;
+    top: 11px;
+}
+
+#notice1-info{
+    width: 240px;
+    height: 22px;
+    padding-left: 10px;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+#notice1-date{
+    width: 50px;
+    height: 22px;
+    padding-right: 10px;
+    line-height: 22px;
+    text-align: right;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#notice2{
+    font-size: 12px;
+    width: 320px;
+    height: 22px;
+    color: #666666;
+    display: flex;
+    top: 11px;
+}
+
+#notice2-info{
+    width: 240px;
+    height: 22px;
+    padding-left: 10px;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+#notice2-date{
+    width: 50px;
+    height: 22px;
+    padding-right: 10px;
+    line-height: 22px;
+    text-align: right;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#notice3{
+    font-size: 12px;
+    width: 320px;
+    height: 22px;
+    color: #666666;
+    display: flex;
+    top: 11px;
+}
+
+#notice3-info{
+    width: 240px;
+    height: 22px;
+    padding-left: 10px;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+#notice3-date{
+    width: 50px;
+    height: 22px;
+    padding-right: 10px;
+    line-height: 22px;
+    text-align: right;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#notice4{
+    font-size: 12px;
+    width: 320px;
+    height: 22px;
+    color: #666666;
+    display: flex;
+    top: 11px;
+}
+
+#notice4-info{
+    width: 240px;
+    height: 22px;
+    padding-left: 10px;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+#notice4-date{
+    width: 50px;
+    height: 22px;
+    padding-right: 10px;
+    line-height: 22px;
+    text-align: right;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#notice5{
+    font-size: 12px;
+    width: 320px;
+    height: 22px;
+    color: #666666;
+    display: flex;
+    top: 11px;
+}
+
+#notice5-info{
+    width: 240px;
+    height: 22px;
+    padding-left: 10px;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+#notice5-date{
+    width: 50px;
+    height: 22px;
+    padding-right: 10px;
+    line-height: 22px;
+    text-align: right;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#notice6{
+    font-size: 12px;
+    width: 320px;
+    height: 22px;
+    color: #666666;
+    display: flex;
+    top: 11px;
+}
+
+#notice6-info{
+    width: 240px;
+    height: 22px;
+    padding-left: 10px;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+#notice6-date{
+    width: 50px;
+    height: 22px;
+    padding-right: 10px;
+    line-height: 22px;
+    text-align: right;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#main-login{
+    width: 285px;
+    padding-left: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+#login3{
+    display: flex;
+    width: 285px;
+}
+
+#login-id{
+    height: 22px;
+    display: flex;
+    padding-left: 4px;
+}
+
+#login-id-txt{
+    
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 61px;
+    height: 18px;
+}
+
+#login-id-in{
+    width: 138px;
+    height: 16px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#login-password{
+    display: flex;
+    height: 22px;
+    padding-top: 6px;
+    padding-left: 4px;
+}
+
+#login-password-txt{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 61px;
+    height: 18px;
+}
+
+#login-password-in{
+    width: 138px;
+    height: 16px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#login-btn{
+    padding-left: 8px;
+}
+
+#login-btn-file{
+    width: 62px;
+    height: 50px;
+}
+
+#login5-1{
+    display: flex;
+    width: 285px;
+    height: 18px;
+}
+
+#saveid{
+    margin-left: 105px;
+}
+
+#saveidtext{
+    font-size: 10pt;
+    margin-top: 3px;
+    color: #616161;
+}
+
+#login7{
+    display: flex;
+}
+
+#login8{
+    display: flex;
+}
+
+#login9{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #F0F1F3;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 195px;
+}
+
+#footlogo{
+    width: 167px;
+    height: 47px;
+    padding-top: 15px;
+    margin-left: 260px;
+}
+
+#adress{
+    height: 12px;
+    font-size: 12px;
+    color: #616161;
+    margin: 0;
+    padding-top: 30px;
+}
+
+#copyright{
+    padding-top: 4px;
+}
+
+#staffnumber{
+    width: 126.5px;
+    height: 30.5px;
+    font-size: 12px;
+    background-color: #6cb5ec;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding-inline: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 42px;
+    margin-top: 25.5px;
+}
+
+#personalinfo{
+    width: 99.5px;
+    height: 30.5px;
+    font-size: 12px;
+    background-color: #6cb5ec;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding-inline: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 9.5px;
+    margin-top: 25.5px;
+}
+
+
